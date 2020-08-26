@@ -4,10 +4,11 @@ import com.google.gson.annotations.SerializedName;
 
 public class Graphql {
 
-    public shortcode_media shortcode_media;
+    @SerializedName("shortcode_media")
+    public shortcode_media shortcodeMedia;
 
-    public Graphql.shortcode_media getShortcode_media() {
-        return shortcode_media;
+    public shortcode_media getShortcodeMedia() {
+        return shortcodeMedia;
     }
 
     public class shortcode_media {
